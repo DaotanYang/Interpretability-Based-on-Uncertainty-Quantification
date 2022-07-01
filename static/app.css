@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    width: 1500px;
+    height: 700px;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.box{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:stretch;
+    flex:auto;
+    color: rgb(0, 0, 0);
+}
+
+.item{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items:center;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.text_center{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
